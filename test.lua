@@ -11,4 +11,4 @@ for i = 0, size - 1 do
 end
 local msg = "Hello Xefa and Trix I did something I promise.... copege"
 local len = #msg
-gpu.set((width / 2) - len, height / 2, msg)
+gpu.set((width / 2) - len/2, height / 2, msg)
