@@ -9,3 +9,5 @@ local y = math.floor((height - size) / 2)
 for i = 0, size - 1 do
     gpu.fill(x, y + i, size, 1, " ")
 end
+gpu.setBackground(0xffffff)
+gpu.set(width/2,height/2,"Hello Xefa and Trix I did someth I promise....")
